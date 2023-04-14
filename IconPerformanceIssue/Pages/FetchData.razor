@@ -1,0 +1,79 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<div style="overflow: visible; height: 0; margin-bottom: 32px;">
+    @if (forecasts == null || _showLoadingIndicator)
+    {
+        <FluentProgressRing />
+    }
+</div>
+
+<h1>Weather forecast</h1>
+
+@if (forecasts != null)
+{
+    <FluentDataGrid TGridItem="WeatherForecast"
+                    RowsData="@forecasts"
+                    Style="width: 100%;">
+        <PropertyColumn Title="Date"
+                    Property="@(c => c!.Date)"
+                    Sortable="true"
+                    Align="@Align.Center" />
+        <PropertyColumn Title="Temp. (C)"
+                    Property="@(c => c!.TemperatureC)"
+                    Sortable="true"
+                    Align="@Align.Center" />
+        <PropertyColumn Title="Temp. (F)"
+                    Property="@(c => c!.TemperatureF)"
+                    Sortable="true"
+                    Align="@Align.Center"
+                    IsDefaultSort="@SortDirection.Descending" />
+        <TemplateColumn Title="Actions"
+                        Align="@Align.Center">
+            <FluentButton Appearance="@Appearance.Accent">
+                Edit
+            </FluentButton>
+            <FluentButton Appearance="@Appearance.Stealth"
+                          @onclick="@(() => OnClickDelete(context!))">
+                <!--
+                    FluentIcon here breaks performance.
+                -->
+                <FluentIcon Name="@FluentIcons.Delete"
+                            Size="@IconSize.Size20" />
+            </FluentButton>
+        </TemplateColumn>
+    </FluentDataGrid>
+}
+
+<FluentButton Appearance="@Appearance.Outline"
+              @onclick="@(() => _showLoadingIndicator = !_showLoadingIndicator)">
+    Toggle Loading Indicator
+</FluentButton>
+
+@code {
+    private IQueryable<WeatherForecast>? forecasts;
+    private bool _showLoadingIndicator;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = (await Http.GetFromJsonAsync<List<WeatherForecast>>("sample-data/weather.json"))!.AsQueryable();
+    }
+
+    private void OnClickDelete(WeatherForecast forecast)
+    {
+        _showLoadingIndicator = !_showLoadingIndicator;
+    }
+
+    private class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}

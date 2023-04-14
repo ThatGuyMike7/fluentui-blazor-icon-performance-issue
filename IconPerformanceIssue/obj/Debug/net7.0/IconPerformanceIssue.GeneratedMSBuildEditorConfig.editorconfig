@@ -1,0 +1,55 @@
+is_global = true
+build_property.PublishFluentIconAssets = true
+build_property.PublishFluentEmojiAssets = false
+build_property.FluentEmojiStyles = 
+build_property.FluentEmojiGroups = 
+build_property.FluentIconSizes = 10,12,16,20,24,28,32,48
+build_property.FluentIconVariants = Filled,Regular
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = IconPerformanceIssue
+build_property.RootNamespace = IconPerformanceIssue
+build_property.ProjectDir = C:\Projects\IconPerformanceIssue\IconPerformanceIssue\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Projects\IconPerformanceIssue\IconPerformanceIssue
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Pages/FetchData2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhMi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-rwpq9e31sb
+
+[C:/Projects/IconPerformanceIssue/IconPerformanceIssue/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1ruch5x0i8

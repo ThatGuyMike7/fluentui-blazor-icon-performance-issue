@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\obj\\Debug\\net7.0\\build-gz\\xO6KlI3U.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\obj\\Debug\\net7.0\\scopedcss\\bundle\\IconPerformanceIssue.styles.css",
+      "PackagePath": "staticwebassets\\IconPerformanceIssue.styles.css"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Projects\\IconPerformanceIssue\\IconPerformanceIssue\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IconPerformanceIssue.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IconPerformanceIssue.props",
+      "PackagePath": "build\\IconPerformanceIssue.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IconPerformanceIssue.props",
+      "PackagePath": "buildMultiTargeting\\IconPerformanceIssue.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IconPerformanceIssue.props",
+      "PackagePath": "buildTransitive\\IconPerformanceIssue.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

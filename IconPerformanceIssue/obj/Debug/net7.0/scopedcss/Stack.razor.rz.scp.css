@@ -1,0 +1,25 @@
+.vertical-stack[b-q3w0rzymk1] {
+    display: flex;
+    flex-direction: column;
+}
+
+    /* Allow items to grow in width to fill the parent container */
+    .vertical-stack[b-q3w0rzymk1] >  * {
+        flex: 1 0 auto;
+    }
+
+        /* Apply a margin to all elements except the last one to avoid trailing space. */
+        .vertical-stack[b-q3w0rzymk1] >  *:not(:last-child) {
+            margin-bottom: calc(var(--design-unit) * var(--stack-margin));
+        }
+
+.horizontal-stack[b-q3w0rzymk1] {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+    /* Apply a margin to all elements except the last one to avoid trailing space. */
+    .horizontal-stack[b-q3w0rzymk1] >  *:not(:last-child) {
+        margin-right: calc(var(--design-unit) * var(--stack-margin));
+    }
